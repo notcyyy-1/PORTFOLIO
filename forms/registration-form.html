@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple native HTML form, made clear and comfortable to complete.">
+  <title>Registration form — The HTML Notebook</title>
+</head>
+<body>
+  <a href="#main">Skip to content</a>
+  <div>
+    <header>
+      <a href="../index.html" aria-label="The HTML Notebook home"><span><strong>The HTML Notebook</strong><small>A collection of field notes</small></span></a>
+      <nav aria-label="Site navigation">
+        <a href="../index.html">Home</a>
+        <a href="../profile/profile.html">Profile</a>
+        <details><summary>Explore pages</summary><div><span>Explore / 14 pages</span><div><span>The essentials</span><a href="../profile/profile.html">Profile</a>
+<a href="../lists/lists.html">Lists</a>
+<a href="../multimedia/multimedia.html">Multimedia</a>
+<a href="../tables/tables.html">Tables</a>
+<a href="../social/social.html">Social links</a><span>HTML field notes</span><a href="../formatting/text-formatting.html">Text formatting</a>
+<a href="../links/links-and-paths.html">Links &amp; paths</a>
+<a href="../bookmarks/bookmarks.html">Bookmarks</a>
+<a href="../frames/framesets.html">Framesets</a>
+<a href="../frames/iframes.html">Iframes</a>
+<a href="../frames/frameattributes.html">Frame attributes</a>
+<a href="../embedding/embedding.html">Embedding</a>
+<a href="registration-form.html" aria-current="page">Registration form</a>
+<a href="../contact/contactme.html">Contact</a></div></div></details>
+      </nav>
+    </header>
+    <main id="main">
+      <div><div><p>HTML field note &nbsp;/&nbsp; 08 of 09</p><h1>An invitation to begin</h1><p>A simple native HTML form, made clear and comfortable to complete.</p></div></div>
+      <div><span>Registration form</span><span>Scroll to discover ↓</span></div>
+      <div><aside aria-label="On this page"><span>On this page</span><p>A small index to help you find your way around this note.</p><nav aria-label="Page sections"><a href="#your-details">01 / Your details</a><a href="#location">02 / Location reference</a></nav></aside><div><section id="your-details">
+      <div><span>01</span><h2>Your details</h2></div>
+      <p>A clear order, visible labels, and generous spacing make a form easier to use.</p>
+
+      <form action="registration-form.html" method="get">
+        <span>Registration / sample form</span>
+        <div>
+          <div><label for="full-name">Full name *</label><input id="full-name" name="full-name" type="text" autocomplete="name" placeholder="Your full name" required></div>
+          <div><label for="phone">Contact number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+63 9XX XXX XXXX" required></div>
+          <div><label for="address">Address *</label><input id="address" name="address" type="text" autocomplete="street-address" placeholder="House, street and city" required></div>
+          <fieldset><legend>Gender *</legend><div><label><input type="radio" name="gender" value="male" required> Male</label><label><input type="radio" name="gender" value="female"> Female</label><label><input type="radio" name="gender" value="other"> Other</label></div></fieldset>
+          <div><label for="blood-type">Blood type</label><select id="blood-type" name="blood-type"><option value="">Select a type</option><option>A</option><option>B</option><option>AB</option><option>O</option></select></div>
+          <fieldset><legend>Hobbies</legend><div><label><input type="checkbox" name="hobbies" value="drawing"> Drawing</label><label><input type="checkbox" name="hobbies" value="sleeping"> Sleeping</label><label><input type="checkbox" name="hobbies" value="reading"> Reading</label><label><input type="checkbox" name="hobbies" value="music"> Playing an instrument</label></div></fieldset>
+          <div><label for="description">A short description</label><textarea id="description" name="description" placeholder="A little about yourself..."></textarea></div>
+        </div>
+        <div><button type="reset">Clear form</button><p>This is a static form demo. It does not submit or store personal details.</p></div>
+      </form>
+    </section><section id="location">
+      <div><span>02</span><h2>Location reference</h2></div>
+
+      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1962.791977558976!2d123.88285493855398!3d10.295067036485383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99c00cfae2e9d%3A0x191faaeb590082b0!2sB.Aranas%20Ext%2C%20Duljo%2C%20Cebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1788151496602!5m2!1sen!2sph" title="Map of B. Aranas Extension in Cebu City" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div>Reference map from the original form</div></div>
+    </section></div></div>
+    </main>
+    <footer><div><span>The HTML Notebook / 08</span><p>Originally made by CyCyy Development.</p></div><a href="../contact/contactme.html" aria-label="Next page: Contact">Next: Contact</a></footer>
+  </div>
+</body>
+</html>
